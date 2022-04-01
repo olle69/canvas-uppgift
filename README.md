@@ -9,6 +9,6 @@ De objekt som är använda är rektanglar ([se denna sida](https://www.w3schools
 
 Som synes på skärmdumparna ovan så ska du sträva efter att objekten ska spridas ut på hela bredden och ungefär halva höjden, oavsett vilket bredd- höjdförhållandet är på webbläsarfönstret. Det syn t ex att huset blir högre när fönstrets höjd ökar (och sidan uppdateras). I filen `script.js` ovan så finns det konstanter som hittar mitten på bilden, det (eller snarare kanske den metoden) kan du ha hjälp av när du bilden konstrueras. Andra exempel finns i repon [canvas-2022](https://github.com/nika-edu/canvas-2022).
 
-Denna repo ska "`fork`:as" till ditt GitHub-konto och din lösning ska pushas dit. Uppgiften ska vara slutförd (och naturligtvis pushad) senast tisdagen den 5 april. För att uppdatera dig på `fork` mm, se [denna länk, som vi arbetade med i höstas](https://github.com/nika-edu/github-vscode-kickoff#1-kopiera-ett-projekt-med-fork-till-ditt-konto).
+Denna repo ska "`fork`:as" till ditt GitHub-konto och din lösning ska pushas dit. Uppgiften ska vara slutförd (och naturligtvis pushad) senast tisdagen den 5 april. För att uppdatera dig på `fork` mm, se [denna länk, som vi arbetade med i höstas](https://github.com/nika-edu/github-vscode-kickoff).
 
 Lycka till :-)
