@@ -21,5 +21,76 @@ Höjd på canvas: ${canvas.height}`
 
 function drawPicture() {
   // Här skriver du funktionen som ritar bilden
+  const s = 500; // Kvadratens sidlängd
+  const b = 100;
+  c.fillStyle = "brown";
+  c.fillRect(midX - b / 2, midY , b, s);
+  
+  c.beginPath();
+  c.moveTo(50, 750);
+  c.lineTo(400, 750);
+  c.stroke();
+  
+  c.beginPath();
+  c.moveTo(50, 550);
+  c.lineTo(400, 550);
+  c.stroke();
+  
+  c.beginPath();
+  c.moveTo(50, 550);
+  c.lineTo(50, 750);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(400, 750);
+  c.lineTo(400, 550);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(1650, 550);
+  c.lineTo(1650, 750);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(1300, 550);
+  c.lineTo(1300, 750);
+  c.stroke();
+  
+  c.beginPath();
+  c.moveTo(1650, 550);
+  c.lineTo(1300, 550);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(1650, 750);
+  c.lineTo(1300, 750);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(1650, 550);
+  c.lineTo(1475, 350);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(1300, 550);
+  c.lineTo(1475, 350);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(50, 550);
+  c.lineTo(225, 350);
+  c.stroke();
+
+  c.beginPath();
+  c.moveTo(400, 550);
+  c.lineTo(225, 350);
+  c.stroke();
+  
+  c.beginPath()
+  c.ellipse(midX, 240, 90, 180, Math.PI / 1, 5.3, 3.31 * Math.PI);
+  c.fillStyle = "green"
+  c.stroke()
+  c.fill()
+  // Textinställningar
 }
 drawPicture();
